@@ -25,6 +25,7 @@ tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 [dev-dependencies]
 axum = { version = "0.7.5", features = ["http2", "query", "tracing"] }
 base64 = "0.22.1"
+bytes = "1.6.1"
 chrono = "0.4.38"
 derive_builder = "0.20.0"
 derive_more = { version = "=1.0.0-beta.6", features = ["full"] }
